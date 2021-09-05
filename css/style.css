@@ -1,0 +1,25 @@
+.hidden{
+    display: none;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../img/01.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+#clock {
+    font-size: 50pt;
+}
+
+#box{
+    width : 500px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 10px solid black;
+    background-color: rgba( 255, 255, 255, 0.5 );
+}
